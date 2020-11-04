@@ -83,9 +83,9 @@ const Dashboard: React.FC = () => {
 
       <Repositories>
         {users.map((user) => (
-          <Link
-            key={user.id}
-            to={`/repositories/${user.login}`}
+          <Link 
+            key={user.login}
+            to={`/repositories/${user.login}`} 
           >
             <img
               src={user.avatar_url}
@@ -95,7 +95,6 @@ const Dashboard: React.FC = () => {
               <strong>{user.name}</strong>
               <p>{user.login}</p>
               <p>{user.bio}</p>
-
               <ul>
                 <li>
                   <strong>{user.public_repos}</strong>
@@ -112,13 +111,11 @@ const Dashboard: React.FC = () => {
               </ul>
               <div>
                 <Link 
-                  key={user.login}
                   to={`/starred/${user.login}`}
                 >
                   <p>Starred</p>
                 </Link>
                 <Link
-                  key={user.login}
                   to={`/repositories/${user.login}`}
                 >
                   <p>Repos</p>
