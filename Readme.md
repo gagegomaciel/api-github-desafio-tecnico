@@ -1,5 +1,5 @@
 
-# Frontend Challenge - ReactJS Concepts
+# Desafio de front-end - API GitHub ReactJS
 
 ## ![image](https://user-images.githubusercontent.com/21963291/85338764-45ba2d00-b4b9-11ea-921a-d15eb692b2ea.png) GitHub API
 
